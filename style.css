@@ -1,0 +1,117 @@
+*{  
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width:750px;
+    height:970px;
+    background-color:white;
+    border:2px solid grey;
+    margin:20px auto;
+    padding:0px;
+
+}
+.header{
+    display:flex;
+    margin:0px 10px;
+}
+.name{
+    margin-top: 9px;
+    margin-left: 12px;
+    padding-bottom: 10px;
+    font-size: large;
+    font-weight: bold;
+}
+.number{
+    margin:7px;
+    font-size: small;
+    position:relative;
+    bottom:18px;
+}
+.profile{
+        padding-left: 16px;
+        margin: 5px;
+        padding-top: 10px;
+        width: 40px;
+        height: 40px;
+        background: #d3fbd3;
+        border-radius: 70px;
+        position: relative;
+        bottom: -1px;
+        font-size: large;
+}
+p img{
+    padding-top: 10px;
+   
+}
+.line{
+    display: flex;
+    justify-content: center;
+    border-top-style: dotted;
+}
+.box{
+    height: 124px;
+    width: 250px;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.rightalign{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rightside{
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    bottom: 32px;
+    right: 15px;
+    font-size:small;
+}
+.leftside{
+    position: relative;
+    bottom: 30px;
+    left: 18px;
+}
+.amount{
+    font-size: xx-large;
+}
+.message{
+    display: flex;
+    justify-content: flex-end;
+}
+.cancelbtn:hover{
+    background-color: red;
+    color: white;
+}
+.cancelbtn{
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 12px;
+    border:1px solid black;
+}
+.leftalign{
+    font-size: small;
+}
+.paybtn{
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 12px;
+    border:1px solid black;
+}
+.paybtn:hover{
+    color:white;
+    background-color:green;
+}
+button{
+    cursor:pointer;
+}
+hr{
+    position: relative;
+    bottom: 18px;
+}
