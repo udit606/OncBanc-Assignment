@@ -75,6 +75,7 @@ p img{
     position: relative;
     bottom: 30px;
     left: 18px;
+    font-size:small;
 }
 .amount{
     font-size: xx-large;
@@ -93,9 +94,6 @@ p img{
     position: relative;
     top: 12px;
     border:1px solid black;
-}
-.leftalign{
-    font-size: small;
 }
 .paybtn{
     padding: 5px;
